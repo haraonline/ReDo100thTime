@@ -1,15 +1,17 @@
-﻿namespace _01_Basics
+﻿namespace _01_Basics.GameCharacters
 {
     public class Warrior
     {
-        //These are properties and are generally for external use (values are assigned from outside the class)
-        public string Name { get; set; }
-        public int Height { get; set; }
-        public int Weight { get; set; }
 
         //These are fields and are for internal use only
         private readonly string country = "Magadha";
         private readonly int population = 3_050;
+
+        //These are properties and are generally for external use (values are assigned from outside the class)
+        public string Name { get; set; }
+        public int Height { get; set; }
+        public int Weight { get; set; }
+        
 
         //Methods
         public void Introduce()
@@ -30,7 +32,7 @@
             Console.WriteLine();
         }
 
-        public Warrior(string name, int height, int weight)        
+        public Warrior(string name, int height, int weight)
         {
             Name = name;
             Height = height;
