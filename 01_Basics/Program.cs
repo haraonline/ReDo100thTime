@@ -10,7 +10,7 @@ namespace _01_Basics
             goodGuy.Name = "Bahu";
             goodGuy.Height = 180;
             goodGuy.Weight= 90;
-            goodGuy.Introduce();
+            goodGuy.Introduce();            
             
 
             Warrior badGuy = new Warrior();
@@ -18,6 +18,8 @@ namespace _01_Basics
             badGuy.Height= 200;
             badGuy.Weight = 100;
             badGuy.Introduce();
+
+            goodGuy.ShakesHand(goodGuy, badGuy);
         }
     }
 
@@ -30,8 +32,8 @@ namespace _01_Basics
         public int Weight { get; set; }
 
         //These are fields and are for internal use only
-        public string country = "Magadha";
-        public int population = 3_050;
+        private readonly string country = "Magadha";
+        private readonly int population = 3_050;
 
         //Methods
         public void Introduce()
@@ -39,11 +41,17 @@ namespace _01_Basics
             Console.WriteLine($"Inroducting {Name}");
             Console.WriteLine($"Height: {Height}");
             Console.WriteLine($"Weight: {Weight}");
-            Console.WriteLine($"Rajyam: {country}");
+            Console.WriteLine($"Country: {country}");
+            Console.WriteLine($"Population: {population}");
             Console.WriteLine();
             Console.WriteLine("--------------------");
             Console.WriteLine();
-        }       
+        }
 
+        public void ShakesHand(Warrior w1, Warrior w2)
+        {
+            Console.WriteLine($"{w1.Name} says hello to {w2.Name}");
+            Console.WriteLine();
+        }
     }
 }
