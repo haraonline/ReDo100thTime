@@ -4,7 +4,7 @@
     {
 
         //These are fields and are for internal use only
-        private readonly string country = "Magadha";
+        private readonly string kingdom = "Magadha";
         private readonly int population = 3_050;
 
         //These are properties and are generally for external use (values are assigned from outside the class)
@@ -19,7 +19,7 @@
             Console.WriteLine($"Inroducting {Name}");
             Console.WriteLine($"Height: {Height}");
             Console.WriteLine($"Weight: {Weight}");
-            Console.WriteLine($"Country: {country}");
+            Console.WriteLine($"Kingdom: {kingdom}");
             Console.WriteLine($"Population: {population}");
             Console.WriteLine();
             Console.WriteLine("--------------------");
