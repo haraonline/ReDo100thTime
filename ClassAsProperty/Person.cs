@@ -1,4 +1,4 @@
-﻿namespace _03.ClassAsProperty
+﻿namespace _03_ClassAsProperty
 {
     public class Person
     {

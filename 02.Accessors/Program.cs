@@ -1,6 +1,4 @@
-﻿using _02.Accessors;
-
-namespace _02_Accessors
+﻿namespace _02_Accessors
 {
     internal class Program
     {
