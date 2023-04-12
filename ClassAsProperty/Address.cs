@@ -21,5 +21,10 @@ namespace _03.ClassAsProperty
         {
             return $"{Street}, {City}";
         }
+
+        public string GetFullAddress()
+        {
+            return $"{Street}, {City}";
+        }
     }
 }
