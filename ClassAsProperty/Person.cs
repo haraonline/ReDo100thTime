@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _03.ClassAsProperty
+﻿namespace _03.ClassAsProperty
 {
     public class Person
     {
@@ -19,7 +13,7 @@ namespace _03.ClassAsProperty
             LastName = lastName;
             BirthDate = birthDate;
             HomeAddress = homeAddress;
-        }
+        }        
 
         public override string ToString()
         {

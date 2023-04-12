@@ -14,7 +14,7 @@ namespace _03.ClassAsProperty
         public Address(string street, string city)
         {
             Street = street;
-            City = city;            
+            City= city;            
         }
 
         public override string ToString()
