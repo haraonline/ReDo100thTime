@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_Basics", "01_Basics\01_B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_Accessors", "02.Accessors\02_Accessors.csproj", "{CB2482DF-8C66-4E99-A797-59B9ECDD42CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassAsProperty", "ClassAsProperty\ClassAsProperty.csproj", "{273BE8AD-51A5-4829-AE03-8751CC61A68E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_ClassAsProperty", "ClassAsProperty\03_ClassAsProperty.csproj", "{273BE8AD-51A5-4829-AE03-8751CC61A68E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

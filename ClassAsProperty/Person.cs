@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClassAsProperty
+namespace _03.ClassAsProperty
 {
     public class Person
     {
@@ -20,7 +20,6 @@ namespace ClassAsProperty
             BirthDate = birthDate;
             HomeAddress = homeAddress;
         }
-
 
         public override string ToString()
         {

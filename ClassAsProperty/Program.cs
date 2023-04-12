@@ -1,4 +1,4 @@
-﻿namespace ClassAsProperty
+﻿namespace _03.ClassAsProperty
 {
     internal class Program
     {
