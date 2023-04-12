@@ -12,8 +12,8 @@
             Console.WriteLine();
             Console.WriteLine(person1);
 
-            /*To access the properties and methods of a class thats is declared as a property of another class,
-            we use the dot operator to access the members of class that was declared as a property*/
+            /* To access the properties and methods of a class that is declared as a property of another class,
+               use the dot operator to access the members of class that was declared as a property */
         }
     }
 }
