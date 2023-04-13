@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _04_ConstructorChaining
+﻿namespace _04_ConstructorChaining
 {
-    internal class Person
+    internal class Person //Internal means that this class is only visible to other classes within this project
     {        
         public string Name { get; set; }
         public int Age { get; set; }
@@ -22,7 +16,5 @@ namespace _04_ConstructorChaining
             Age = age;
             Address = address;
         }
-
-
     }
 }
