@@ -13,9 +13,9 @@ namespace _04_ConstructorChaining
         public string Address { get; set; }
 
         //Chain constructors
-        public Person() : this("No Name", 0, "No Address") { }
-        public Person(string name) : this(name, 0, "No Address") { }
-        public Person(string name, int age) : this(name, age, "No Address") { }
+        public Person() : this("Default Name", 0, "Default Address") { }
+        public Person(string name) : this(name, 0, "Default Address") { }
+        public Person(string name, int age) : this(name, age, "Default Address") { }
         public Person(string name, int age, string address)
         {
             Name = name;
