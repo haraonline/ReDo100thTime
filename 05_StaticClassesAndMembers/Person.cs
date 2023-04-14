@@ -8,13 +8,19 @@
         {
             get { return id; }
             //private set { id = value; } //set the value internally within the class constructor not while instantiation outside the class
-                                        //if this field is private readonly, you cannt set this in the constructor. therefore remove if its readonly
+                                          //if this field is private readonly, you cannt set this in the constructor. therefore remove if its readonly
         }
+
+        private const string DEFAULT_COUNTRY = "Never Land"; //YOU CANNOT ASSIGN AN INSTANCE TO A CONST FIELD,
+                                                             //BECAUSE INSTANCE CHANGES AND THEREFORE IS NOT CONSTANT,
+                                                             //SO USE READONLY IN THAT CASE ...
     
         public string Name { get; set; }
         public string LastName { get; set; }
         public int Age { get; set; }
         public static int Count { get; set; }
+
+        
 
         public Person(string name, string lastName, int age)
         {
@@ -34,7 +40,7 @@
 
         public override string ToString()
         {
-            return $"Id: {Id}, Name: {Name}, LastName: {LastName}, Age: {Age}";
+            return $"Id: {Id}, Name: {Name}, LastName: {LastName}, Age: {Age}, Country: {DEFAULT_COUNTRY}";
         }
     }
 }
