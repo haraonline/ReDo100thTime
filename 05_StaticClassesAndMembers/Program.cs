@@ -12,6 +12,7 @@
             Person p5 = new Person("Jenny", "Swarznegger", 10);
             Person p6 = new Person("Mary", "Littlelamb", 10);
             Console.WriteLine(p6);
+            
             Person p7 = new Person("Monika", "Schmidt", 10);
             Person p8 = new Person("Antonio", "Fukua", 10);
             Person.PrintCount();
