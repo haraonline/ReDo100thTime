@@ -4,11 +4,11 @@
     {
         private readonly int id;
 
-        public int Id
+        public int Id //This property is not passed to the constructor, but the value is set via the private/readonly id field
         {
             get { return id; }
             //private set { id = value; } //set the value internally within the class constructor not while instantiation outside the class
-                                          //if this field is private readonly, you cannt set this in the constructor. therefore remove if its readonly
+                                          //if this field is private, you cannot set this in the constructor. therefore remove if its readonly
         }
 
         private const string DEFAULT_COUNTRY = "Never Land"; //YOU CANNOT ASSIGN AN INSTANCE TO A CONST FIELD,
