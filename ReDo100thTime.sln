@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_ClassAsProperty", "03_Cl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_ConstructorChaining", "04_ConstructorChaining\04_ConstructorChaining.csproj", "{55652752-2685-4A45-8F94-94F85E10D562}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_StaticClassesAndMembers", "05_StaticClassesAndMembers\05_StaticClassesAndMembers.csproj", "{E8FBCCA9-A2D7-40F0-9180-E7C358137D71}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{55652752-2685-4A45-8F94-94F85E10D562}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55652752-2685-4A45-8F94-94F85E10D562}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55652752-2685-4A45-8F94-94F85E10D562}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8FBCCA9-A2D7-40F0-9180-E7C358137D71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8FBCCA9-A2D7-40F0-9180-E7C358137D71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8FBCCA9-A2D7-40F0-9180-E7C358137D71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8FBCCA9-A2D7-40F0-9180-E7C358137D71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
