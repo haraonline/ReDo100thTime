@@ -10,6 +10,12 @@
             person.WorksOn = DayOfTheWeek.Monday | DayOfTheWeek.Tuesday | DayOfTheWeek.Wednesday | DayOfTheWeek.Thursday | DayOfTheWeek.Friday;
             Console.WriteLine(person);
 
+            var anotherPerson = new Person();
+            anotherPerson.FirstName = "Jane";
+            anotherPerson.LastName = "Smith";
+            anotherPerson.WorksOn = DayOfTheWeek.Monday | DayOfTheWeek.Tuesday | DayOfTheWeek.Wednesday;
+            Console.WriteLine(anotherPerson);
+
         }      
     }
 
