@@ -1,4 +1,4 @@
-﻿namespace _05_StaticClassesAndMembers
+﻿namespace _05_StaticMembers
 {
     internal class Program
     {

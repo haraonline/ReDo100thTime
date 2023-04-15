@@ -9,7 +9,7 @@
             //static methods are generally used to perform operations that do not require access to instance members
             //static methods are generally of utility type
             //we can however pass the instance of the class to the static method as an argument to access instance members of the class ...
-            //... but this is not recommended since it is not the purpose of static methods
+            //you should not however change the state of the instance in a static method ???
         }
     }
 }
