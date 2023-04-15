@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             var person = new Person();
-            person.FirstName = "John";
+            person.FirstName = "Jonathan";
             person.LastName = "Doe";
             person.WorksOn = DayOfTheWeek.Monday | DayOfTheWeek.Tuesday | DayOfTheWeek.Wednesday | DayOfTheWeek.Thursday | DayOfTheWeek.Friday;
             Console.WriteLine(person);
