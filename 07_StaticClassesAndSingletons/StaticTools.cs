@@ -7,6 +7,10 @@
             Console.ForegroundColor = color;
             Console.WriteLine(text);            
             Console.ResetColor();
-        }        
+
+            //static classes are singletons
+            //they can only have static members
+            //they cannot be instantiated            
+        }
     }
 }
