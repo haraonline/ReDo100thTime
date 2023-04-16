@@ -8,7 +8,6 @@ namespace _09_Inheritance
 {
     internal class AnimalVirtualProperty
     {
-        public string Animal { get; set; }
         public virtual string Sound { get; set; }        
     }
 }

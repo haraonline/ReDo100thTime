@@ -5,5 +5,3 @@
         public override string Sound { get; set; } = "Woof";
     }
 }
-
-

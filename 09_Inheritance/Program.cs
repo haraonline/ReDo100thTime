@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            var cat = new CatVirtualProperty();
+            var dog = new DogVirtualProperty();
+            Console.WriteLine(cat.Sound);
+            Console.WriteLine(dog.Sound);
+
         }
     }
 }
