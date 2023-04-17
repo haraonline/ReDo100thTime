@@ -10,7 +10,7 @@
             Console.WriteLine(dog.Sound);
 
             //Chain of inheritance
-            //is a or has a relationship (a - for class, has a - for properties)
+            //is-a or has-a relationship (a - for class, has a - for properties)
             //Cat is an Animal
             //Dog is an Animal
             //Animal has a Sound
@@ -20,7 +20,6 @@
             //Dog is a Mammal
             //Mammal has a Sound
             //Cat has a Sound
-
         }
     }
 }
