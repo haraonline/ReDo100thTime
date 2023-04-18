@@ -1,7 +1,7 @@
 ABSTRACTION
-- abstraction is achieved by using abstract classes and interfaces
-- abstract classes cannot be instantiated
-- abstract classes can have abstract and non-abstract methods
+- Abstraction is achieved by using abstract classes and interfaces
+- Abstract classes cannot be instantiated
+- Abstract classes can have abstract and non-abstract methods
             
             
 
@@ -18,7 +18,7 @@ DIFFERENCES BETWEEN ABSTRACT CLASSES AND INTERFACES
 - Abstract classes can have protected and private access modifiers, Interfaces can have only public access modifiers
 
 VIRTUAL METHODS
-A virtual method is a method that is declared in a base class and is overridden in a derived class.
+- A virtual method is a method that is declared in a base class and is overridden in a derived class.
 When you call a virtual method, the CLR determines which method to call at runtime based on the type of the object that is used to invoke the method. 
 The CLR uses the type of the object to determine which method to call, not the type of the variable that is used to invoke the method.
 This is called late binding.
