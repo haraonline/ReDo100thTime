@@ -1,4 +1,4 @@
-﻿namespace _10_Encapsulation
+﻿namespace _11_Encapsulation
 {
     internal class BankAccount
     {
