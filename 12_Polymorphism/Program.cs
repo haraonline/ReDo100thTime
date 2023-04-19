@@ -9,7 +9,6 @@
             DiverseCollections.IterateOver(dc.arrSnacks);
             DiverseCollections.IterateOver(dc.listDrinks);
             DiverseCollections.IterateOver(dc.listEvens);
-
         }
     }
 }
