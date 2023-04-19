@@ -19,9 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_StaticClassesAndSingleto
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_Enumerations", "08_Enumerations\08_Enumerations.csproj", "{56D09BE5-9580-403E-AC5F-EEB503FD4376}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_Inheritance", "09_Inheritance\09_Inheritance.csproj", "{0489D8FE-9BB0-47CB-BC82-9A049E9461F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09_Inheritance", "09_Inheritance\09_Inheritance.csproj", "{0489D8FE-9BB0-47CB-BC82-9A049E9461F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_Abstraction", "10_Abstraction\10_Abstraction.csproj", "{43720D69-B217-41AE-8FA8-40F1F1054FDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_Abstraction", "10_Abstraction\10_Abstraction.csproj", "{43720D69-B217-41AE-8FA8-40F1F1054FDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_Encapsulation", "10_Encapsulation\10_Encapsulation.csproj", "{724E49B4-6CA6-44F7-BB30-97ECE7D10E66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{43720D69-B217-41AE-8FA8-40F1F1054FDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43720D69-B217-41AE-8FA8-40F1F1054FDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43720D69-B217-41AE-8FA8-40F1F1054FDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{724E49B4-6CA6-44F7-BB30-97ECE7D10E66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{724E49B4-6CA6-44F7-BB30-97ECE7D10E66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{724E49B4-6CA6-44F7-BB30-97ECE7D10E66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{724E49B4-6CA6-44F7-BB30-97ECE7D10E66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
